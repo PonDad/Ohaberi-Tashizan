@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'M+1pbold';
+    src: url('fonts/mplus-1p-bold-sub.eot.eot');
+    src: url('fonts/mplus-1p-bold-sub.eot?#iefix') format('embedded-opentype'),
+    url('fonts/mplus-1p-bold-sub.woff') format('woff'),
+    url('fonts/mplus-1p-bold-sub.ttf') format('truetype');
+}
+
+body {
+    font-family: 'M+1pbold';
+    margin: 0 auto;
+    background-color: #03A9F4;
+    color: #fff;
+}
+#title{
+  font-size:150%;
+  text-align: center;
+}
+article{
+  margin: 0 auto;
+}
+#content{
+  width: 100%;
+  height: 40vw;
+  position: relative;
+}
+
+#content p{
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  -webkit-transform: translateY(40%);
+  transform: translateY(40%);
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.question{
+  font-size: 600%;
+}
+
+.answer{
+  padding-top: 20px;
+  font-size: 400%;
+}
+@media screen and (max-width: 640px) {
+  .question{
+    font-size: 300%;
+  }
+  .answer{
+    padding-top: 10px;
+    font-size: 200%;
+  }
+}
+
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 16px 0 0 2px;
+  font-size: 24px;
+  border-radius: 35px;
+  background-color: #E91E63;
+  color: inherit;
+}
+
+
+#mic-button{
+   margin-top: 20px;
+   text-align: center;
+}
+
+.box{
+  margin: 20px 0;
+}
+
+footer{
+  margin-top: 40px;
+  text-align: center;;
+}
