@@ -1,6 +1,6 @@
 おしゃべりたしざん - Ohaberi+
 ----------
-![header-image](https://github.com/PonDad/Samuel-L-9000/blob/master/www/img/promo_3.png)
+![header-image](https://github.com/PonDad/Ohaberi-Tashizan/blob/master/www/img/screenshpt_1280.png)
 
 おしゃべりしながら足し算を楽しもう。
 
